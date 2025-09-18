@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DemoSwimmApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4d1bfbd7efa29fd1ec691b35382b943da606927")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6051b8379632a411835e3e335e0893ee83d83669")]
 [assembly: System.Reflection.AssemblyProductAttribute("DemoSwimmApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DemoSwimmApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
