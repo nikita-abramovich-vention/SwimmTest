@@ -1,0 +1,17 @@
+D:\wod.employeeservice\DreamTeam.Wod.EmployeeService.DomainModel\bin\Debug\net8.0\DreamTeam.Wod.EmployeeService.DomainModel.deps.json
+D:\wod.employeeservice\DreamTeam.Wod.EmployeeService.DomainModel\bin\Debug\net8.0\DreamTeam.Wod.EmployeeService.DomainModel.dll
+D:\wod.employeeservice\DreamTeam.Wod.EmployeeService.DomainModel\bin\Debug\net8.0\DreamTeam.Wod.EmployeeService.DomainModel.pdb
+D:\wod.employeeservice\DreamTeam.Wod.EmployeeService.DomainModel\bin\Debug\net8.0\DreamTeam.CodeStyles.dll
+D:\wod.employeeservice\DreamTeam.Wod.EmployeeService.DomainModel\bin\Debug\net8.0\DreamTeam.DomainModel.dll
+D:\wod.employeeservice\DreamTeam.Wod.EmployeeService.DomainModel\bin\Debug\net8.0\DreamTeam.CodeStyles.pdb
+D:\wod.employeeservice\DreamTeam.Wod.EmployeeService.DomainModel\bin\Debug\net8.0\DreamTeam.DomainModel.pdb
+D:\wod.employeeservice\DreamTeam.Wod.EmployeeService.DomainModel\obj\Debug\net8.0\DreamTeam.Wod.EmployeeService.DomainModel.csproj.AssemblyReference.cache
+D:\wod.employeeservice\DreamTeam.Wod.EmployeeService.DomainModel\obj\Debug\net8.0\DreamTeam.Wod.EmployeeService.DomainModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\wod.employeeservice\DreamTeam.Wod.EmployeeService.DomainModel\obj\Debug\net8.0\DreamTeam.Wod.EmployeeService.DomainModel.AssemblyInfoInputs.cache
+D:\wod.employeeservice\DreamTeam.Wod.EmployeeService.DomainModel\obj\Debug\net8.0\DreamTeam.Wod.EmployeeService.DomainModel.AssemblyInfo.cs
+D:\wod.employeeservice\DreamTeam.Wod.EmployeeService.DomainModel\obj\Debug\net8.0\DreamTeam.Wod.EmployeeService.DomainModel.csproj.CoreCompileInputs.cache
+D:\wod.employeeservice\DreamTeam.Wod.EmployeeService.DomainModel\obj\Debug\net8.0\DreamTea.ED10FC81.Up2Date
+D:\wod.employeeservice\DreamTeam.Wod.EmployeeService.DomainModel\obj\Debug\net8.0\DreamTeam.Wod.EmployeeService.DomainModel.dll
+D:\wod.employeeservice\DreamTeam.Wod.EmployeeService.DomainModel\obj\Debug\net8.0\refint\DreamTeam.Wod.EmployeeService.DomainModel.dll
+D:\wod.employeeservice\DreamTeam.Wod.EmployeeService.DomainModel\obj\Debug\net8.0\DreamTeam.Wod.EmployeeService.DomainModel.pdb
+D:\wod.employeeservice\DreamTeam.Wod.EmployeeService.DomainModel\obj\Debug\net8.0\ref\DreamTeam.Wod.EmployeeService.DomainModel.dll

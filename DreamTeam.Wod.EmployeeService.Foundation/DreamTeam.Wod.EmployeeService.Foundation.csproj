@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Diacritical.Net" Version="1.0.4" />
+    <PackageReference Include="Novell.Directory.Ldap.NETStandard" Version="3.6.0" />
+    <PackageReference Include="System.Runtime" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DreamTeam.BackgroundJobs\DreamTeam.BackgroundJobs\DreamTeam.BackgroundJobs.csproj" />
+    <ProjectReference Include="..\DreamTeam.Common\DreamTeam.Foundation\DreamTeam.Foundation.csproj" />
+    <ProjectReference Include="..\DreamTeam.Common\DreamTeam.Identity\DreamTeam.Identity.csproj" />
+    <ProjectReference Include="..\DreamTeam.Common\DreamTeam.Services\DreamTeam.Services.csproj" />
+    <ProjectReference Include="..\DreamTeam.Core.DepartmentService\DreamTeam.Core.DepartmentService\DreamTeam.Core.DepartmentService.csproj" />
+    <ProjectReference Include="..\DreamTeam.Core.TimeTrackingService\DreamTeam.Core.TimeTrackingService\DreamTeam.Core.TimeTrackingService.csproj" />
+    <ProjectReference Include="..\DreamTeam.Microservices\DreamTeam.Microservices.DomainModel\DreamTeam.Microservices.DomainModel.csproj" />
+    <ProjectReference Include="..\DreamTeam.Microservices\DreamTeam.Microservices\DreamTeam.Microservices.csproj" />
+    <ProjectReference Include="..\DreamTeam.Migrations\DreamTeam.Migrations\DreamTeam.Migrations.csproj" />
+    <ProjectReference Include="..\DreamTeam.Repositories\DreamTeam.Repositories\DreamTeam.Repositories.csproj" />
+    <ProjectReference Include="..\DreamTeam.Wod.EmployeeService.Repositories\DreamTeam.Wod.EmployeeService.Repositories.csproj" />
+    <ProjectReference Include="..\DreamTeam.Core.ProfileService\DreamTeam.Core.ProfileService\DreamTeam.Core.ProfileService.csproj" />
+    <ProjectReference Include="..\DreamTeam.Wod.SmgService\DreamTeam.Wod.SmgService\DreamTeam.Wod.SmgService.csproj" />
+    <ProjectReference Include="..\DreamTeam.Wod.WspService\DreamTeam.Wod.WspService\DreamTeam.Wod.WspService.csproj" />
+  </ItemGroup>
+
+</Project>

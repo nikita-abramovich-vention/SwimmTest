@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "domMkby5dHE=",
+  "success": true,
+  "projectFilePath": "D:\\wod.employeeservice\\DreamTeam.Wod.EmployeeService.DomainModel\\DreamTeam.Wod.EmployeeService.DomainModel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mikita.Abramovich\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.556\\stylecop.analyzers.1.2.0-beta.556.nupkg.sha512",
+    "C:\\Users\\Mikita.Abramovich\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.556\\stylecop.analyzers.unstable.1.2.0.556.nupkg.sha512"
+  ],
+  "logs": []
+}

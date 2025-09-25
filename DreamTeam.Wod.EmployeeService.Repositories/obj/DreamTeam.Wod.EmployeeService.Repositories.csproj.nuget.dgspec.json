@@ -1,0 +1,645 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\wod.employeeservice\\DreamTeam.Wod.EmployeeService.Repositories\\DreamTeam.Wod.EmployeeService.Repositories.csproj": {}
+  },
+  "projects": {
+    "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.CodeStyles\\DreamTeam.CodeStyles.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.CodeStyles\\DreamTeam.CodeStyles.csproj",
+        "projectName": "DreamTeam.CodeStyles",
+        "projectPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.CodeStyles\\DreamTeam.CodeStyles.csproj",
+        "packagesPath": "C:\\Users\\Mikita.Abramovich\\.nuget\\packages\\",
+        "outputPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.CodeStyles\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mikita.Abramovich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.0": {
+            "targetAlias": "netstandard1.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard1.0": {
+          "targetAlias": "netstandard1.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[1.2.0-beta.556, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.Common\\DreamTeam.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.Common\\DreamTeam.Common.csproj",
+        "projectName": "DreamTeam.Common",
+        "projectPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.Common\\DreamTeam.Common.csproj",
+        "packagesPath": "C:\\Users\\Mikita.Abramovich\\.nuget\\packages\\",
+        "outputPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mikita.Abramovich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.CodeStyles\\DreamTeam.CodeStyles.csproj": {
+                "projectPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.CodeStyles\\DreamTeam.CodeStyles.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Fastenshtein": {
+              "target": "Package",
+              "version": "[1.0.10, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[3.2.30, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.DomainModel\\DreamTeam.DomainModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.DomainModel\\DreamTeam.DomainModel.csproj",
+        "projectName": "DreamTeam.DomainModel",
+        "projectPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.DomainModel\\DreamTeam.DomainModel.csproj",
+        "packagesPath": "C:\\Users\\Mikita.Abramovich\\.nuget\\packages\\",
+        "outputPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.DomainModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mikita.Abramovich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.CodeStyles\\DreamTeam.CodeStyles.csproj": {
+                "projectPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.CodeStyles\\DreamTeam.CodeStyles.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.Logging\\DreamTeam.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.Logging\\DreamTeam.Logging.csproj",
+        "projectName": "DreamTeam.Logging",
+        "projectPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.Logging\\DreamTeam.Logging.csproj",
+        "packagesPath": "C:\\Users\\Mikita.Abramovich\\.nuget\\packages\\",
+        "outputPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.Logging\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mikita.Abramovich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.CodeStyles\\DreamTeam.CodeStyles.csproj": {
+                "projectPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.CodeStyles\\DreamTeam.CodeStyles.csproj"
+              },
+              "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.Common\\DreamTeam.Common.csproj": {
+                "projectPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.Common\\DreamTeam.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\wod.employeeservice\\DreamTeam.Repositories\\DreamTeam.Repositories.EntityFrameworkCore\\DreamTeam.Repositories.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\wod.employeeservice\\DreamTeam.Repositories\\DreamTeam.Repositories.EntityFrameworkCore\\DreamTeam.Repositories.EntityFrameworkCore.csproj",
+        "projectName": "DreamTeam.Repositories.EntityFrameworkCore",
+        "projectPath": "D:\\wod.employeeservice\\DreamTeam.Repositories\\DreamTeam.Repositories.EntityFrameworkCore\\DreamTeam.Repositories.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\Mikita.Abramovich\\.nuget\\packages\\",
+        "outputPath": "D:\\wod.employeeservice\\DreamTeam.Repositories\\DreamTeam.Repositories.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mikita.Abramovich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.CodeStyles\\DreamTeam.CodeStyles.csproj": {
+                "projectPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.CodeStyles\\DreamTeam.CodeStyles.csproj"
+              },
+              "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.Common\\DreamTeam.Common.csproj": {
+                "projectPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.Common\\DreamTeam.Common.csproj"
+              },
+              "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.DomainModel\\DreamTeam.DomainModel.csproj": {
+                "projectPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.DomainModel\\DreamTeam.DomainModel.csproj"
+              },
+              "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.Logging\\DreamTeam.Logging.csproj": {
+                "projectPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.Logging\\DreamTeam.Logging.csproj"
+              },
+              "D:\\wod.employeeservice\\DreamTeam.Repositories\\DreamTeam.Repositories\\DreamTeam.Repositories.csproj": {
+                "projectPath": "D:\\wod.employeeservice\\DreamTeam.Repositories\\DreamTeam.Repositories\\DreamTeam.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\wod.employeeservice\\DreamTeam.Repositories\\DreamTeam.Repositories\\DreamTeam.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\wod.employeeservice\\DreamTeam.Repositories\\DreamTeam.Repositories\\DreamTeam.Repositories.csproj",
+        "projectName": "DreamTeam.Repositories",
+        "projectPath": "D:\\wod.employeeservice\\DreamTeam.Repositories\\DreamTeam.Repositories\\DreamTeam.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Mikita.Abramovich\\.nuget\\packages\\",
+        "outputPath": "D:\\wod.employeeservice\\DreamTeam.Repositories\\DreamTeam.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mikita.Abramovich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.CodeStyles\\DreamTeam.CodeStyles.csproj": {
+                "projectPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.CodeStyles\\DreamTeam.CodeStyles.csproj"
+              },
+              "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.Common\\DreamTeam.Common.csproj": {
+                "projectPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.Common\\DreamTeam.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\wod.employeeservice\\DreamTeam.Wod.EmployeeService.DomainModel\\DreamTeam.Wod.EmployeeService.DomainModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\wod.employeeservice\\DreamTeam.Wod.EmployeeService.DomainModel\\DreamTeam.Wod.EmployeeService.DomainModel.csproj",
+        "projectName": "DreamTeam.Wod.EmployeeService.DomainModel",
+        "projectPath": "D:\\wod.employeeservice\\DreamTeam.Wod.EmployeeService.DomainModel\\DreamTeam.Wod.EmployeeService.DomainModel.csproj",
+        "packagesPath": "C:\\Users\\Mikita.Abramovich\\.nuget\\packages\\",
+        "outputPath": "D:\\wod.employeeservice\\DreamTeam.Wod.EmployeeService.DomainModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mikita.Abramovich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.CodeStyles\\DreamTeam.CodeStyles.csproj": {
+                "projectPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.CodeStyles\\DreamTeam.CodeStyles.csproj"
+              },
+              "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.DomainModel\\DreamTeam.DomainModel.csproj": {
+                "projectPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.DomainModel\\DreamTeam.DomainModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\wod.employeeservice\\DreamTeam.Wod.EmployeeService.Repositories\\DreamTeam.Wod.EmployeeService.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\wod.employeeservice\\DreamTeam.Wod.EmployeeService.Repositories\\DreamTeam.Wod.EmployeeService.Repositories.csproj",
+        "projectName": "DreamTeam.Wod.EmployeeService.Repositories",
+        "projectPath": "D:\\wod.employeeservice\\DreamTeam.Wod.EmployeeService.Repositories\\DreamTeam.Wod.EmployeeService.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Mikita.Abramovich\\.nuget\\packages\\",
+        "outputPath": "D:\\wod.employeeservice\\DreamTeam.Wod.EmployeeService.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mikita.Abramovich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.CodeStyles\\DreamTeam.CodeStyles.csproj": {
+                "projectPath": "D:\\wod.employeeservice\\DreamTeam.Common\\DreamTeam.CodeStyles\\DreamTeam.CodeStyles.csproj"
+              },
+              "D:\\wod.employeeservice\\DreamTeam.Repositories\\DreamTeam.Repositories.EntityFrameworkCore\\DreamTeam.Repositories.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\wod.employeeservice\\DreamTeam.Repositories\\DreamTeam.Repositories.EntityFrameworkCore\\DreamTeam.Repositories.EntityFrameworkCore.csproj"
+              },
+              "D:\\wod.employeeservice\\DreamTeam.Repositories\\DreamTeam.Repositories\\DreamTeam.Repositories.csproj": {
+                "projectPath": "D:\\wod.employeeservice\\DreamTeam.Repositories\\DreamTeam.Repositories\\DreamTeam.Repositories.csproj"
+              },
+              "D:\\wod.employeeservice\\DreamTeam.Wod.EmployeeService.DomainModel\\DreamTeam.Wod.EmployeeService.DomainModel.csproj": {
+                "projectPath": "D:\\wod.employeeservice\\DreamTeam.Wod.EmployeeService.DomainModel\\DreamTeam.Wod.EmployeeService.DomainModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
