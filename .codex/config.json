@@ -1,5 +1,5 @@
 {
     "model": "gpt-5-codex-high",
     "alwaysApprove": true,
-    "approval_policy": "never"
+    "approval_policy": "auto-edit"
 }
